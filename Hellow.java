@@ -1,7 +1,6 @@
-class hellow
-{ 
-     public static void main(String a[])
-     {
-        System.out.print("hellow world");
-        }
+class hellow {
+    public static void main (String a[])
+    {
+        System.out.println("Hellow World");
+    }
 }
