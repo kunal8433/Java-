@@ -1,14 +1,21 @@
-public class if_else {
+class if_else {
     public static void main (String a[])
     {
-        int x = 18;
+        int n = 4;
+        if (n==1)
+            System.out.println("Monday");
+        else if (n==2)
+        System.out.println("Tuesday");
+        else if (n==3)
+        System.out.println("Wednesday");
+        else if (n==4)
+        System.out.println("Tuesday");
+        else if (n==5)
+        System.out.println("Tuesday");
+        else if (n==6)
+        System.out.println("Tuesday");
+        else 
+        System.out.println("Tuesday");
 
-        if (x>10){
-            System.out.println("Grater");
-            System.out.println("kunal");}
-        else
-
-        System.out.println("Smaller");
     }
-    
 }
