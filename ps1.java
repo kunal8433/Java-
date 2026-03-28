@@ -1,12 +1,13 @@
-public class ps1 {
+class java {
     public static void main (String a[])
     {
-        for(int i=1;i<=4; i++);
-        {
+        int i = 5;
+        while(i<=4);
 
-        
-        System.out.println("Kunal");
+       {
+
+       System.out.println("kunal" + i);
+        i++;
     }
-    
-}
-}
+
+}}
