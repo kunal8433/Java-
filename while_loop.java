@@ -1,15 +1,19 @@
-class while_loop{
-    public static void main (String a[])
+public class while_loop {
+    public static void main(String[] args) 
     {
         int i = 1;
-        while(i<=4)
-        {
-            System.out.println("kunal" + i);
-            i++;
-            System.out.println("Malik"+i);
-        
 
+
+        while(i<=9)
+        {
+            System.out.println("Kunal" + i);
+            i++;
+            
         }
 
+        System.out.println("Jaat" +i);
+        i++;
+ 
+   
     }
 }
