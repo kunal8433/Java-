@@ -1,16 +1,10 @@
 public class pattern {
     public static void main(String[] args) {
+        int a = 12;
+        int b = 13;
+        int result = (a+b);
+        System.out.println(result); 
 
-        for(int i=1;i<=4;i++){
-            {
-                for (int j =i+1;j<=4;j++)
-                {
-                    System.out.println("*");
-                }
-            }
-            System.out.println("*");
-
-        }
-        
     }
+    
 }
