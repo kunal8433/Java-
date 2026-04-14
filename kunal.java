@@ -1,6 +1,11 @@
-class kunal {
-    public static void main (String a[])
-    {
-        System.out.print("KUNAL");
+import java.util.*;
+public class kunal {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Enter your name :");
+        String name = sc.nextLine();
+        System.out.println("The name of the user is :" + name);
+        sc.close();
+        
     }
 }
