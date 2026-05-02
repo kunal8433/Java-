@@ -1,21 +1,22 @@
-import java.util.*;
 public class kunal{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        
+        int x = 100;
 
-        System.out.println("Enter your First name :");
-        String x = sc.nextLine();
+        if (x<=200){
 
-        System.out.println("Enter your Second name : ");
-        String y = sc.nextLine();
+        
+          System.out.println("SMALLER!");
+        }
 
-        String result = (x+y);
-        System.out.println("The Full name is :" + result);
-
-        sc.close();
-
+        else if (x>=200)
+        {
+          System.out.println("GRATER!");
+        }
+        else
+            System.out.println("ERROR");
 
     }
     
-    
+
 }
