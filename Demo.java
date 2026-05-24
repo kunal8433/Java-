@@ -1,24 +1,11 @@
-
-class Computer {
-    public void playMusic() {
-        System.out.println("Music play");
-    }
-
-    public String getMeApen(int cost) {
-        if (cost >= 10)
-            return "Pen";
-        else
-            return "None";
-    }
-}
-
 public class Demo {
     public static void main(String[] args) {
-        Computer obj = new Computer();
         
-        obj.playMusic();   // correct method call
+        int nums[] = {2,3,4,5,6};
 
-        String str = obj.getMeApen(2);  // correct argument passing
-        System.out.println(str);
+        System.out.println(nums[2]);
+
+        int  nums2[] = {12,32,43,54,456};
+        System.out.println(nums2[2]);
     }
 }
