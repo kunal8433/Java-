@@ -1,22 +1,24 @@
-public class kunal{
+import java.util.*;
+public  class kunal {
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner (System.in);
+
+
+        System.out.println("Enter your First Number :");
+        int x = sc.nextInt();
+        System.out.println("Enter your Second Number :");
+        int y = sc.nextInt();
+
+        int result = x+y;
+
+
+        System.out.println("The result is : " + result);
+
+        sc.close();
         
-        int x = 100;
-
-        if (x<=200){
-
         
-          System.out.println("SMALLER!");
-        }
-
-        else if (x>=200)
-        {
-          System.out.println("GRATER!");
-        }
-        else
-            System.out.println("ERROR");
-
     }
     
-
+    
 }
