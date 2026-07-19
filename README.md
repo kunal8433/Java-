@@ -37,6 +37,8 @@ I created this repository to practice Java consistently and improve my problem-s
 - VS Code / IntelliJ
 - Git & GitHub
 
+- Greek For Greek
+
 ---
 
 ⭐ Consistently learning and uploading Java practice code.
